@@ -9,18 +9,7 @@
 <div class="layui-fluid">
   <div class="layui-row layui-col-space15">
      
-        <div class="layui-col-sm6 layui-col-md4">
-          <div class="layui-card">
-            <div class="layui-card-header">
-              杠杆结算订单量
-              <span class="layui-badge layui-bg-blue layuiadmin-badge">总计</span>
-            </div>
-            <div class="layui-card-body layuiadmin-card-list">
-              <p class="layuiadmin-big-font">{{$settlement }}</p>
-             
-            </div>
-          </div>
-        </div>
+  
         
         <div class="layui-col-sm6 layui-col-md4">
           <div class="layui-card">

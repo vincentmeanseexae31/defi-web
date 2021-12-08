@@ -773,13 +773,16 @@ class MemberController extends Controller
         //第一个菜单
         $_one = [];
         $_one['name'] = 'user';
-        $_one['title'] = '用户管理';
+        $_one['title'] = '推广用户';
         $_one['icon'] = 'layui-icon-user';
 
         $_one_son = [];
         $_one_son[] = ['name' => 'user', 'title' => '代理商管理', 'jump' => 'user/user/list'];
-        $_one_son[] = ['name' => 'san', 'title' => '用户管理', 'jump' => 'user/san/list'];
-
+        $_one_son[] = ['name' => 'san', 'title' => '客户管理', 'jump' => 'user/san/list'];
+        $_one_son[] = ['name' => 'fin', 'title' => '客户账变', 'jump' => 'user/san/list'];
+        $_one_son[] = ['name' => 'fin1', 'title' => '客户钱包', 'jump' => 'user/san/list'];
+        $_one_son[] = ['name' => 'fin2', 'title' => '客户提币', 'jump' => 'user/san/list'];
+        $_one_son[] = ['name' => 'fin3', 'title' => '客户提币', 'jump' => 'user/san/list'];
         // if ($_self->is_admin == 1) {
         //     $_one_son[] = ['name'=>'jie' , 'title'=>'结算管理' , 'jump' => 'user/jie/list'];
         // }
