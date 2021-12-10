@@ -101,7 +101,7 @@
 @section('scripts')
     <script type="text/html" id="table-useradmin-webuser">
         <a class="layui-btn layui-btn-normal layui-btn-xs" lay-event="wallet_info">查看资金</a>
-        <a class="layui-btn layui-btn-normal layui-btn-xs" lay-event="order">查看订单</a>
+        <!-- <a class="layui-btn layui-btn-normal layui-btn-xs" lay-event="order">查看订单</a> -->
     </script>
 
 

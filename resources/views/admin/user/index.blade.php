@@ -106,7 +106,7 @@
                         // ,{field:'status', title:'是否锁定', width: 90, templet: '#switchTpl'}
                         // ,{field:'can_transfer_num', title:'可划转数量', width: 120}
                         // ,{field:'is_transfer', title:'是否已划转', width: 120, templet: '#switchTpl'}
-                        ,{field:'is_agent', title:'是否是代理', width: 120, templet: '#switchIsAgent'}
+                        // ,{field:'is_agent', title:'是否是代理', width: 120, templet: '#switchIsAgent'}
                         ,{field:'time', title:'注册时间', width: 170} 
                         ,{fixed: 'right', title: '操作', width: 300, align: 'center', toolbar: '#barDemo'}
                     ]]
